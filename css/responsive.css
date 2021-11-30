@@ -1,0 +1,51 @@
+/* ====================
+Extra small device Start
+=======================*/
+@media (max-width: 575px) {
+  /* navbar css start */
+  .navbar {
+    background: var(--brand);
+    top: 10px;
+  }
+  .navbar .navbar-brand {
+    position: unset;
+    background: var(--cl-sub);
+    padding: 0px !important;
+  }
+  .navbar .navbar-toggler {
+    border-color: #fff;
+  }
+  .navbar .navbar-toggler span {
+    color: #fff;
+  }
+  /* navbar css ends */
+
+  /* banner css starts */
+  #banner .banner-item .banner-text h3 {
+    font-size: 24px;
+  }
+  #banner .banner-item .banner-text h3::before,
+  #banner .banner-item .banner-text h3::after {
+    display: none;
+  }
+  #banner .banner-item .banner-text h1 {
+    font-size: 48px;
+  }
+  #banner .banner-item .banner-text h1::before,
+  #banner .banner-item .banner-text h1::after {
+    display: none;
+  }
+
+  #banner .banner-item .banner-text a::before,
+  #banner .banner-item .banner-text a::after {
+    display: none;
+  }
+  #banner .banner-item .banner-text p {
+    padding: 0;
+  }
+  /* banner css ends */
+}
+
+/* ====================
+Extra small device ends
+=======================*/
