@@ -80,6 +80,9 @@ Section Heading Css Ends
   font-size: 16px;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
 .fs-22 {
   font-size: 22px;
 }
@@ -262,7 +265,7 @@ Navbar css ends
 #banner .bg1 h3::before {
   content: " ";
   height: 3px;
-  width: 164px;
+  width: 144px;
   background: var(--brand);
   position: absolute;
   top: 270px;
@@ -272,7 +275,7 @@ Navbar css ends
 #banner .bg1 h3::after {
   content: " ";
   height: 3px;
-  width: 110px;
+  width: 103px;
   background: var(--brand);
   position: absolute;
   top: 270px;
@@ -281,7 +284,7 @@ Navbar css ends
 
 #banner .bg1 h1::before {
   content: " ";
-  height: 200px;
+  height: 210px;
   width: 3px;
   background: var(--brand);
   position: absolute;
@@ -291,7 +294,7 @@ Navbar css ends
 
 #banner .bg1 h1::after {
   content: " ";
-  height: 200px;
+  height: 210px;
   width: 3px;
   background: var(--brand);
   position: absolute;
@@ -305,17 +308,17 @@ Navbar css ends
   width: 68px;
   background: var(--brand);
   position: absolute;
-  bottom: 135px;
+  bottom: 126px;
   left: 5px;
 }
 
 #banner .bg1 a::after {
   content: " ";
   height: 3px;
-  width: 42px;
+  width: 48px;
   background: var(--brand);
   position: absolute;
-  bottom: 135px;
+  bottom: 126px;
   right: 0px;
 }
 
@@ -450,7 +453,7 @@ gallery css ends
 =================*/
 
 #team {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 #team .team-member {
   padding-top: 65px;
@@ -559,3 +562,359 @@ gallery css ends
 /*================
 our team css ends
 =================*/
+
+#testimonial {
+  margin-bottom: 50px;
+}
+
+#testimonial .testimonial-bg {
+  background: url(../images/testimonialbg.jpg) no-repeat center/cover;
+  position: relative;
+  z-index: 1;
+  margin-top: 25px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.testimonial-bg::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background: var(--over8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#testimonial .testimonial-item .testimonial-person-image {
+  margin-right: 15px;
+}
+
+#testimonial .testimonial-item .testimonial-person-detail .ratings i {
+  color: var(--brand) !important;
+}
+#testimonial .testimonial-item .testimonial-person-text {
+  margin-top: 15px;
+  line-height: 18px;
+}
+#testimonial .testimonial-item .testimonial-person-text P {
+  padding-right: 10px;
+}
+
+#testimonial .testimonial-bg .slick-dots li button {
+  font-size: 0;
+  outline: 0;
+  border: 0;
+}
+
+#testimonial .testimonial-bg .slick-dots {
+  display: flex;
+  position: absolute;
+  left: 95%;
+  bottom: -58px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+#testimonial .testimonial-bg .slick-dots li {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#testimonial .testimonial-bg .slick-dots li:last-child {
+  margin-right: 0px;
+}
+
+#testimonial .testimonial-bg .slick-dots li.slick-active {
+  border-color: var(--brand);
+  background: var(--brand);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/*====================
+testimonial css ends
+======================*/
+#membership {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+#membership .membership-item {
+  padding-top: 25px;
+}
+#membership .membership-item .membership-header {
+  background: var(--bg2);
+}
+
+#membership .membership-item:hover .membership-header h4 {
+  background: var(--brand);
+  color: #fff;
+}
+
+#membership .membership-item .membership-header h4 {
+  color: var(--cl-heading);
+  line-height: 54px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#membership .membership-item .membership-price .price-overlay {
+  background: var(--over8);
+}
+#membership .membership-item .membership-featurs {
+  background: var(--bg);
+}
+
+#membership .membership-item .membership-featurs ul {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+#membership .membership-item .membership-featurs ul li {
+  margin-top: 20px;
+}
+
+#membership .membership-item .membership-btn a {
+  background: var(--bg2);
+  line-height: 24px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#membership .membership-item:hover .membership-btn a {
+  background: var(--brand);
+  color: #fff;
+}
+
+/*====================
+membership css ends
+======================*/
+
+#counter {
+  padding-bottom: 75px;
+}
+
+#counter .counter-bg {
+  width: 100%;
+  height: 150px;
+  background-image: url(../images/counter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#counter .counter-bg .counter-overlay {
+  background: var(--over9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#counter .counter-bg .counter-overlay h3 {
+  padding-top: 35px;
+}
+
+#counter .counter-bg .counter-overlay h4 {
+  padding-bottom: 35px;
+}
+
+/*====================
+counter css ends
+======================*/
+
+#classes .nav {
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#classes .nav .active {
+  background: var(--brand) !important;
+  color: #fff !important;
+}
+#classes .nav .nav-item .nav-link {
+  line-height: 24px;
+  padding: 15px 71px;
+  color: var(--cl-sub);
+  background: var(--bg);
+}
+#classes .nav .nav-item .nav-link {
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#classes .nav .nav-item .nav-link:hover {
+  color: #fff;
+  background: var(--brand);
+}
+
+#classes .tab-content .tab-content {
+  background: var(--bg);
+  margin-top: 20px;
+}
+
+#classes .tab-content .tab-content.active {
+  background: var(--brand);
+}
+#classes .tab-content .tab-content.active {
+  color: #fff;
+}
+
+#classes .tab-content .tab-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#classes .tab-content .tab-content img {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/*====================
+classess css ends
+======================*/
+
+#icon {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* ================
+ icon css ends 
+ ==================*/
+
+#footer .footer-bg {
+  position: relative;
+  z-index: 1;
+}
+#footer .footer-bg .footer-overlay {
+  background: var(--over-f);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#footer .footer-bg .footer-overlay .logo {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#footer .footer-bg .footer-overlay .footer-contant ul {
+  padding-top: 20px;
+}
+
+#footer .footer-bg .footer-overlay .footer-contant .first-content ul {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+#footer .footer-bg .footer-overlay .footer-contant .content-icon i {
+  color: var(--twit) !important;
+  padding-right: 10px;
+  padding-top: 25px;
+}
+
+#footer .footer-bg .footer-overlay .footer-contant .content-text p {
+  padding-top: 35px;
+  padding-right: 60px;
+  line-height: 18px;
+}
+
+#footer .footer-bg .footer-overlay .footer-contant .flicker-photos {
+  padding-top: 30px;
+}
+
+.footer-overlay .footer-contant .flicker-photos img {
+  padding-bottom: 15px;
+}
+
+#footer .footer-bg .footer-overlay .footer-social .footer-icon ul {
+  border: 1px solid #fff;
+}
+#footer .footer-bg .footer-overlay .footer-social .social-icon {
+  padding-top: 20px;
+}
+#footer .footer-bg .footer-overlay .footer-social .social-icon a {
+  margin-right: 5px;
+}
+
+#footer .footer-bg .footer-overlay a:last-of-type {
+  margin-bottom: 0px;
+}
+#footer .footer-bg .footer-overlay .footer-social h3 {
+  padding-top: 15px;
+}
+
+#footer .footer-bg .footer-overlay .social-icon a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#footer .footer-bg .footer-overlay .social-icon a:hover {
+  color: #fff;
+  background: var(--brand);
+}
+
+.footer-content .contact-content .content-text p {
+  padding-right: -5px !important;
+}
+
+#footer .footer-bg .footer-overlay .twitter-icon i {
+  color: var(--twit);
+  padding-top: 28px;
+  padding-left: 13px;
+}
+
+#footer .footer-bg .footer-overlay .twitter-text h5 {
+  padding-top: 25px;
+  padding-left: -11px;
+  line-height: 18px;
+  padding-right: 51px;
+}
+
+#footer .footer-bg .footer-overlay .content-icon i {
+  color: var(--brand);
+  padding-left: 15px;
+  padding-top: 27px;
+  padding-bottom: 0px;
+}
+
+#footer .footer-bg .footer-overlay .content-text h4 {
+  padding-left: 15px;
+  padding-right: 35px;
+  padding-top: 26px;
+  padding-bottom: -17px;
+}

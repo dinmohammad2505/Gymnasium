@@ -18,6 +18,129 @@ Extra small device Start
   .navbar .navbar-toggler span {
     color: #fff;
   }
+
+  .navbar {
+    background: rgba(226, 62, 56, 0.5);
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background: #fff;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.active::before {
+    width: 0%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    width: 0;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::after {
+    width: 0%;
+  }
+  /* navbar css ends */
+
+  /* banner css starts */
+
+  #banner .banner-item .banner-text h1 {
+    font-size: 60px;
+  }
+  #banner .banner-item .banner-text h3 {
+    font-size: 35px;
+    padding-left: 37px;
+  }
+
+  #banner .banner-item .banner-text h3::before,
+  #banner .banner-item .banner-text h3::after {
+    display: none;
+  }
+
+  #banner .banner-item .banner-text h1::before,
+  #banner .banner-item .banner-text h1::after {
+    display: none;
+  }
+
+  #banner .banner-item .banner-text a::before,
+  #banner .banner-item .banner-text a::after {
+    display: none;
+  }
+  #banner .banner-item .banner-text p {
+    padding: 0;
+    padding-left: 17px;
+  }
+  #banner .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  #banner .banner-item .banner-text a:first-of-type {
+    margin-right: 10px;
+  }
+  /* banner css ends */
+}
+
+/* ====================
+Extra small device ends
+=======================*/
+
+/* ====================
+small device Start
+=======================*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /* navbar css start */
+  .navbar {
+    background: var(--brand);
+    top: 10px;
+  }
+  .navbar .navbar-brand {
+    position: unset;
+    background: var(--cl-sub);
+    padding: 0px !important;
+  }
+  .navbar .navbar-toggler {
+    border-color: #fff;
+  }
+  .navbar .navbar-toggler span {
+    color: #fff;
+  }
+  .navbar {
+    background: rgba(226, 62, 56, 0.5);
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background: #fff;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.active::before {
+    width: 0%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    width: 0;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::after {
+    width: 0%;
+  }
   /* navbar css ends */
 
   /* banner css starts */
@@ -44,8 +167,271 @@ Extra small device Start
     padding: 0;
   }
   /* banner css ends */
+
+  /* about css starts */
+
+  #about {
+    padding: 50px 0;
+  }
+  p {
+    margin-top: -12px;
+    margin-bottom: 1rem;
+  }
+
+  #about .about-image {
+    margin-top: 10px;
+  }
+  /* about css ends */
+
+  /* gallery css starts */
+  #gallery {
+    padding-bottom: 20px;
+  }
+
+  /* gallery css ends */
+
+  #team .team-member {
+    margin-bottom: -65px;
+  }
+
+  #team .team-member {
+    padding-top: 50px;
+  }
+
+  /* Counterup starts*/
+
+  #counter .counter-bg {
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/counter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Counterup ends*/
+
+  #classes .nav .nav-item .nav-link {
+    line-height: 24px;
+    padding: 20px 61px;
+    color: var(--cl-sub);
+    background: var(--bg);
+  }
+  .footer-bg > img {
+    height: 100vh !important;
+  }
+  #footer .footer-bg .footer-overlay .twitter-icon i {
+    color: var(--twit);
+    padding-top: 28px;
+    padding-left: 65px;
+  }
+  #footer .footer-bg .footer-header h3 {
+    margin-top: 10px;
+  }
 }
 
 /* ====================
-Extra small device ends
+small device ends
+=======================*/
+
+/* ====================
+medium device starts
+=======================*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* navbar css start */
+  .navbar {
+    background: var(--brand);
+    top: 10px;
+  }
+  .navbar .navbar-brand {
+    position: unset;
+    background: var(--cl-sub);
+    padding: 0px !important;
+  }
+  .navbar .navbar-toggler {
+    border-color: #e23e38;
+  }
+  .navbar .navbar-toggler span {
+    color: #e23e38;
+  }
+
+  .navbar {
+    background: rgba(53, 53, 53, 0.6);
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background: #fff;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.active::before {
+    width: 0%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    width: 0;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+  }
+  /* navbar css ends */
+
+  /* Banner css starts */
+  #banner .bg1 h3::before {
+    left: 59px;
+  }
+  #banner .bg1 h3::before {
+    right: 64px;
+  }
+
+  #banner .bg1 h1::before {
+    left: 58px;
+  }
+  #banner .bg1 h1::after {
+    right: 63px;
+  }
+
+  #banner .bg1 a::before {
+    width: 83px;
+    bottom: 125px;
+    left: 58px;
+  }
+  #banner .bg1 a::after {
+    width: 51px;
+    bottom: 126px;
+    right: 65px;
+  }
+  #banner .bg1 h3::after {
+    top: 270px;
+    right: 63px;
+  }
+  #banner .bg1 p {
+    padding: 0 78px;
+  }
+
+  /* Banner css Ends */
+
+  /* membership starts */
+  .fs-29 {
+    font-size: 25px;
+  }
+  .fs-50 {
+    font-size: 40px;
+  }
+  .fs-16 {
+    font-size: 14px;
+  }
+  /* membership ends */
+
+  /* Counterup starts*/
+
+  .counter-bg {
+    height: 150px;
+  }
+  .counter-bg img {
+    height: 150px;
+  }
+  /* Counterup ends*/
+
+  /* our classess Starts */
+  #classes .nav .nav-item .nav-link {
+    line-height: 24px;
+    padding: 15px 34px;
+    color: var(--cl-sub);
+    background: var(--bg);
+  }
+
+  .footer-bg > img {
+    height: 650px !important;
+  }
+}
+
+/*=====================
+medium device ends
+=======================*/
+
+/* ====================
+large device starts
+=======================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Banner css starts */
+  #banner .bg1 h3::before {
+    left: -32px;
+  }
+
+  #banner .bg1 h3::after {
+    right: -41px;
+  }
+  #banner .bg1 h1::before {
+    height: 233px;
+    left: -33px;
+  }
+  #banner .bg1 h1::after {
+    height: 233px;
+    right: -41px;
+  }
+
+  #banner .bg1 a::before {
+    width: 44px;
+    bottom: 125px;
+    left: -33px;
+  }
+  #banner .bg1 a::after {
+    width: 25px;
+    bottom: 125px;
+    right: -41px;
+  }
+
+  #banner .bg1 p {
+    padding: 0px;
+  }
+
+  /* Banner css ends */
+
+  /* classes navigation css starts */
+
+  #classes .nav .nav-item .nav-link {
+    padding: 16px 53px;
+    padding-left: 54px;
+  }
+
+  /* classes navigation css ends */
+
+  /* Footer css starts */
+
+  #footer .footer-bg > img {
+    height: 500px;
+  }
+
+  #footer .footer-bg .first-content ul li {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  #footer .footer-bg .secound-content ul {
+    padding-left: 15px;
+  }
+
+  #footer .footer-bg .secound-content ul li {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  #footer .footer-bg .footer-overlay .twitter-text h5 {
+    padding-top: 25px;
+    padding-left: -11px;
+    line-height: 18px;
+    padding-right: 15px;
+    font-size: 12px;
+  }
+}
+
+/*=====================
+Large device ends
 =======================*/
